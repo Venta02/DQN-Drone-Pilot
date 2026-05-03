@@ -1,0 +1,20 @@
+# Drone RL Project - Dependencies
+# ================================
+
+# Core RL Libraries
+torch>=2.0.0
+numpy>=1.24.0
+gymnasium>=0.29.0
+
+# AirSim
+airsim>=1.8.1
+
+# Visualization
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Optional: untuk monitoring
+# tensorboard>=2.13.0
+# wandb>=0.15.0

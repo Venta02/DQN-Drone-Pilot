@@ -1,0 +1,114 @@
+# =====================================================
+# Drone RL Project - Git Ignore
+# =====================================================
+
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+airsim_rl_env/
+
+# =====================================================
+# ML Models & Training Outputs
+# =====================================================
+models/
+checkpoints/
+logs/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.onnx
+
+# Training plots & data
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
+!docs/*.jpg
+
+training_log_*.csv
+training_data_*.json
+
+# =====================================================
+# AirSim
+# =====================================================
+# AirSim binary builds (huge files, not your code)
+AirSimNH/
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+
+# AirSim recordings & generated assets
+*.log
+*.uasset
+*.uexp
+*.umap
+*.ubulk
+*.ushaderbytecode
+
+# =====================================================
+# Data & Datasets
+# =====================================================
+data/
+datasets/
+*.csv
+*.tsv
+*.npy
+*.npz
+
+# Allow specific config files
+!requirements.txt
+!airsim_settings.json
+
+# =====================================================
+# IDE
+# =====================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =====================================================
+# OS
+# =====================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# =====================================================
+# Jupyter
+# =====================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================================================
+# Misc
+# =====================================================
+*.bak
+*.tmp
+.tmp/
+tmp/
+temp/
+test_videos/
